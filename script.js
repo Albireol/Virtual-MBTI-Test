@@ -4,7 +4,7 @@ document.getElementById("startBtn").addEventListener("click", function() {
     showQuestion();
 });
 
-const virtualQuestions = [喜欢和朋友一起行动
+const virtualQuestions = [
     { question: "你在微信、QQ群里的行为？", category: "EI", labels: ["经常主动发言", "看消息但不说话"], type: "virtual" },
     { question: "你在朋友圈/微博/QQ空间发动态的频率？", category: "EI", labels: ["每天都发，喜欢互动", "几乎不发动态"], type: "virtual" },
     { question: "你在玩多人游戏（如LOL、王者荣耀）时如何交流？", category: "EI", labels: ["会开语音聊天", "更喜欢打字交流"], type: "virtual" },
