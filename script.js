@@ -4,10 +4,10 @@ document.getElementById("startBtn").addEventListener("click", function() {
     showQuestion();
 });
 
-const virtualQuestions = [
-    { question: "你在微信、QQ群里的行为？", category: "EI", labels: ["看消息但不说话", "经常主动发言"], type: "virtual" },
-    { question: "你在朋友圈/微博/QQ空间发动态的频率？", category: "EI", labels: ["几乎不发动态", "每天都发，喜欢互动"], type: "virtual" },
-    { question: "你在玩多人游戏（如LOL、王者荣耀）时如何交流？", category: "EI", labels: ["更喜欢打字交流", "会开语音聊天"], type: "virtual" },
+const virtualQuestions = [喜欢和朋友一起行动
+    { question: "你在微信、QQ群里的行为？", category: "EI", labels: ["经常主动发言", "看消息但不说话"], type: "virtual" },
+    { question: "你在朋友圈/微博/QQ空间发动态的频率？", category: "EI", labels: ["每天都发，喜欢互动", "几乎不发动态"], type: "virtual" },
+    { question: "你在玩多人游戏（如LOL、王者荣耀）时如何交流？", category: "EI", labels: ["会开语音聊天", "更喜欢打字交流"], type: "virtual" },
     { question: "你在B站/知乎/小红书更常看的内容？", category: "SN", labels: ["教程、测评、新闻", "脑洞、科幻、二次元"], type: "virtual" },
     { question: "你玩剧情游戏时更喜欢？", category: "SN", labels: ["按主线任务走，不探索支线", "四处探索，看隐藏剧情"], type: "virtual" },
     { question: "你在游戏/网上遇到新玩法时？", category: "SN", labels: ["先找攻略确保不出错", "自己摸索，不怕试错"], type: "virtual" },
@@ -20,9 +20,9 @@ const virtualQuestions = [
 ];
 
 const realQuestions = [
-    { question: "在线下社交场合（如聚会、课堂），你的行为是？", category: "EI", labels: ["更喜欢倾听，不主动社交", "主动参与话题，喜欢结识新朋友"], type: "real" },
-    { question: "当你走进一个陌生的社交场合时，你通常会？", category: "EI", labels: ["观察环境，等别人来找我", "主动介绍自己，迅速融入"], type: "real" },
-    { question: "你在日常生活中喜欢独处还是群体活动？", category: "EI", labels: ["更喜欢自己一个人做事", "喜欢和朋友一起行动"], type: "real" },
+    { question: "在线下社交场合（如聚会、课堂），你的行为是？", category: "EI", labels: ["主动参与话题，喜欢结识新朋友", "更喜欢倾听，不主动社交"], type: "real" },
+    { question: "当你走进一个陌生的社交场合时，你通常会？", category: "EI", labels: ["主动介绍自己，迅速融入", "观察环境，等别人来找我"], type: "real" },
+    { question: "你在日常生活中喜欢独处还是群体活动？", category: "EI", labels: ["喜欢和朋友一起行动", "更喜欢自己一个人做事"], type: "real" },
     { question: "你更喜欢哪种思考方式？", category: "SN", labels: ["基于经验和事实", "想象可能性，喜欢推测"], type: "real" },
     { question: "你在现实生活中更关注？", category: "SN", labels: ["实际细节和效率", "创造力和未来可能"], type: "real" },
     { question: "你喜欢的工作/学习方式是？", category: "SN", labels: ["按计划执行，关注现实问题", "探索新思路，发掘潜在可能"], type: "real" },
